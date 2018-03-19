@@ -81,7 +81,7 @@ var MovieButton = React.createClass({
                     className: 'button'
                 },
                 React.createElement('a', {
-                    href: this.props.video,
+                    href: this.props.link,
                     target: '_blank'
                 }, 'Zobacz film')
             )
